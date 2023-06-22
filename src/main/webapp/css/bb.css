@@ -1,0 +1,71 @@
+.product_list2 .item_wrap .over {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 20;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    text-align: center;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, button, input, textarea {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+ol, ul, li {
+    list-style: none;
+}
+.product_list2 .item_wrap .info {
+    display: block;
+    position: relative;
+    height: 50px;
+    margin: 24px 10px 0 10px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #ebe7e0;
+    text-align: center;
+}
+.product_list2 .item_wrap .over:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=95);
+    opacity: 0.95;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+.product_list2 .item_wrap > a, .product_list2 .item_wrap .default {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+a, a:link, a:visited {
+    text-decoration: none;
+    color: #555;
+}
+a {
+    vertical-align: top;
+}
+.product_list2 .item_wrap {
+    float: left;
+    display: inline-block;
+    position: relative;
+    width: 192px;
+    height: 245px;
+    background: #fff;
+    margin: 0 0 10px 10px;
+}
+.product_list2 > ul {
+    display: inline-block;
+    margin-left: -10px;
+}
